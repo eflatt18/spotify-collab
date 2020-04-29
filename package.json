@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "next build",
+    "build": "next build && next export",
     "dev": "node server/server.js",
     "start": "NODE_ENV=production node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "analyze": "cross-env ANALYZE=1 next build",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "export": "next export"
   },
   "lint-staged": {
     "*.js": [

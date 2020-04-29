@@ -2,3 +2,16 @@
 node_modules
 queue.json
 package-lock.json
+/.firebaserc
+./firebase.json
+.runtimeconfig.json
+.firebase/
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/

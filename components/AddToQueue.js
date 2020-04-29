@@ -16,6 +16,7 @@ class ResultsList extends Component {
             list-style: none;
             margin: 0;
             padding: 0;
+            color: white;
           }
           .add-to-queue__search-results-item {
             padding: 5px 0 5px 5px;
@@ -23,15 +24,15 @@ class ResultsList extends Component {
           .add-to-queue__search-results-item--focused {
             background-color: #eee;
           }
-          .container{
+          .container {
             display: flex;
           }
-          .album-img{
-              width: 64;
-              padding-right: 1em;
+          .album-img {
+            width: 64;
+            padding-right: 1em;
           }
-          .flex-item{
-              flex-grow: 1;
+          .flex-item {
+            flex-grow: 1;
           }
 
           .song-name {
@@ -47,7 +48,7 @@ class ResultsList extends Component {
             <li key={r.id} className={className} onClick={() => this.props.onSelect(r.id)}>
               <div className="container">
                 <div className="album-img">
-                  <img src={r.album.images[2].url}/>
+                  <img src={r.album.images[2].url} />
                 </div>
                 <div className="flex-item">
                   <div className="song-name">{r.name}</div>
@@ -129,7 +130,7 @@ class AddToQueue extends Component {
   };
 
   render() {
-    const placeholder = this.props.intl.formatMessage({id: 'queue.add'});
+    const placeholder = this.props.intl.formatMessage({ id: 'queue.add' });
     const results = this.props.search.results;
     return (
       <div className="add-to-queue" onBlur={this.handleBlur}>
