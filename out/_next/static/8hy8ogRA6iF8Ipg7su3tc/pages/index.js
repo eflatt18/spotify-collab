@@ -21,13 +21,7 @@
     ,
     ,
     function(t, e) {
-      var r, n, o;
-      t.exports =
-        ((o = 'https://spotify-662a3.firebaseapp.com/'),
-        (n = 'HOST') in (r = { HOST: 'http://localhost:3000' })
-          ? Object.defineProperty(r, n, { value: o, enumerable: !0, configurable: !0, writable: !0 })
-          : (r[n] = o),
-        r);
+      t.exports = { HOST: 'http://localhost:3000' };
     },
     ,
     ,
