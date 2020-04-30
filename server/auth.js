@@ -77,7 +77,9 @@ auth.get('/callback', function(req, res) {
 
     request.post(authOptions, function(error, response, body) {
       if (!error && response.statusCode === 200) {
-        var access_token = body.access_token, refresh_token = body.refresh_token, expires_in = body.expires_in;
+        var access_token = body.access_token,
+          refresh_token = body.refresh_token,
+          expires_in = body.expires_in;
 
         res.cookie('refresh_token', refresh_token, {
           maxAge: 30 * 24 * 3600 * 1000
@@ -115,7 +117,8 @@ auth.post('/token', function(req, res) {
     };
     request.post(authOptions, function(error, response, body) {
       if (!error && response.statusCode === 200) {
-        var access_token = body.access_token, expires_in = body.expires_in;
+        var access_token = body.access_token,
+          expires_in = body.expires_in;
 
         res.setHeader('Content-Type', 'application/json');
         res.send(
