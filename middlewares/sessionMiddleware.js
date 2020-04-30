@@ -84,7 +84,6 @@ export default store => next => action => {
             const accessToken = hash.access_token;
             const expiresIn = hash.expires_in;
             if (accessToken === '') {
-              // todo: implement login error
             } else {
               const refreshToken = hash.refresh_token;
               localStorage.setItem('refreshToken', refreshToken);
