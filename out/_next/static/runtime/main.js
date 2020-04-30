@@ -7263,7 +7263,7 @@ SOFTWARE.
               error.name = err.name;
               error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-              (0, _sourceMapSupport.rewriteStacktrace)(error, '/Users/ericflatt/c/.next');
+              (0, _sourceMapSupport.rewriteStacktrace)(error, '/Users/ericflatt/spotify-collab/.next');
               return error;
             }
           };
@@ -19851,7 +19851,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
       /*! no static exports found */
       /***/ function(module, exports, __webpack_require__) {
         module.exports = __webpack_require__(
-          /*! /Users/ericflatt/c/node_modules/next/dist/client/next-dev */ './node_modules/next/dist/client/next-dev.js'
+          /*! /Users/ericflatt/spotify-collab/node_modules/next/dist/client/next-dev */ './node_modules/next/dist/client/next-dev.js'
         );
 
         /***/

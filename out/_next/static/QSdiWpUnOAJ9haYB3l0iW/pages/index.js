@@ -1,5 +1,5 @@
 (window.webpackJsonp = window.webpackJsonp || []).push([
-  [3],
+  [6],
   [
     ,
     ,
@@ -21,7 +21,7 @@
     ,
     ,
     function(t, e) {
-      t.exports = { HOST: 'http://localhost:3000' };
+      (t.exports = { HOST: 'http://localhost:3000' }), (t.exports = { HOST: 'https://spotify-662a3.firebaseapp.com/' });
     },
     ,
     ,
@@ -10138,12 +10138,12 @@
           return { type: 'PLAY_TRACK_SUCCESS', track: t, user: e, position: r };
         },
         Jt = [
-          '.btn.jsx-4002907058{background-color:white;border:1px solid #fff;border-radius:2px;color:#666;cursor:pointer;line-height:28px;padding:0 15px;margin-bottom:10px;}'
+          '.btn.jsx-2966135913{background-color:white;border:1px solid #fff;border-radius:2px;color:#666;cursor:pointer;line-height:28px;padding:0 15px;margin-bottom:10px;}'
         ];
-      Jt.__hash = '4002907058';
+      Jt.__hash = '2966135913';
       var Gt = Jt,
-        Zt = ['.btn--dark.jsx-3460356423{background-color:#fff;border:1px solid #fff;color:black;}'];
-      Zt.__hash = '3460356423';
+        Zt = ['.btn--dark.jsx-3807537216{background-color:#fff;border:1px solid #fff;color:black;}'];
+      Zt.__hash = '3807537216';
       var Qt = Zt,
         te = { backgroundColor: '#000', padding: '20px 40px' },
         ee = function(t) {
@@ -10175,29 +10175,29 @@
             e.user
               ? s.a.createElement(
                   'div',
-                  { className: 'jsx-1383071618 media user-header' },
+                  { className: 'jsx-3824193449 media user-header' },
                   s.a.createElement(o.a, {
-                    styleId: '1383071618',
+                    styleId: '3824193449',
                     css: [
-                      '.user-header.jsx-1383071618{float:right;width:150px;}',
-                      '.user-image.jsx-1383071618{border-radius:50%;}',
-                      '.user-name.jsx-1383071618{line-height:30px;color:white;}',
-                      '.media.jsx-1383071618,.media__bd.jsx-1383071618{overflow:hidden;_overflow:visible;zoom:1;}',
-                      '.media.jsx-1383071618 .media__img.jsx-1383071618{float:left;margin-right:10px;}'
+                      '.user-header.jsx-3824193449{float:right;width:150px;}',
+                      '.user-image.jsx-3824193449{border-radius:50%;}',
+                      '.user-name.jsx-3824193449{line-height:30px;color:white;}',
+                      '.media.jsx-3824193449,.media__bd.jsx-3824193449{overflow:hidden;_overflow:visible;zoom:1;}',
+                      '.media.jsx-3824193449 .media__img.jsx-3824193449{float:left;margin-right:10px;}'
                     ]
                   }),
                   s.a.createElement(
                     'div',
-                    { className: 'jsx-1383071618 media__img' },
+                    { className: 'jsx-3824193449 media__img' },
                     s.a.createElement('img', {
                       src: (e.user.images && e.user.images.length && e.user.images[0].url) || '/static/user-icon.png',
                       width: '30',
                       height: '30',
                       alt: ee(e.user),
-                      className: 'jsx-1383071618 user-image'
+                      className: 'jsx-3824193449 user-image'
                     })
                   ),
-                  s.a.createElement('div', { className: 'jsx-1383071618 user-name media__bd' }, ee(e.user))
+                  s.a.createElement('div', { className: 'jsx-3824193449 user-name media__bd' }, ee(e.user))
                 )
               : s.a.createElement(
                   'button',
@@ -10215,13 +10215,13 @@
                   'div',
                   {
                     className:
-                      'jsx-1578298220 ' + 'jsx-'.concat(Gt.__hash, ' jsx-').concat(Qt.__hash) + ' playback-control'
+                      'jsx-1288354138 ' + 'jsx-'.concat(Gt.__hash, ' jsx-').concat(Qt.__hash) + ' playback-control'
                   },
                   s.a.createElement(o.a, { styleId: Gt.__hash, css: Gt }),
                   s.a.createElement(o.a, { styleId: Qt.__hash, css: Qt }),
                   s.a.createElement(o.a, {
-                    styleId: '1578298220',
-                    css: ['.playback-control.jsx-1578298220{float:right;width:200px;}']
+                    styleId: '1288354138',
+                    css: ['.playback-control.jsx-1288354138{float:right;width:200px;}']
                   })
                 )
               : null
@@ -10884,14 +10884,14 @@
                         )
                       : s.a.createElement(
                           'table',
-                          { className: 'jsx-1423284646 queue' },
+                          { className: 'jsx-4064061454 queue' },
                           s.a.createElement(o.a, {
-                            styleId: '1423284646',
-                            css: ['.queue.jsx-1423284646{max-width:550px;}']
+                            styleId: '4064061454',
+                            css: ['.queue.jsx-4064061454{max-width:550px;}']
                           }),
                           s.a.createElement(
                             'tbody',
-                            { className: 'jsx-1423284646' },
+                            { className: 'jsx-4064061454' },
                             r.map(function(e, r) {
                               return s.a.createElement(Me, {
                                 item: e,
@@ -11039,17 +11039,17 @@
                     n = e.focus;
                   return s.a.createElement(
                     'ul',
-                    { className: 'jsx-1522879596 add-to-queue__search-results' },
+                    { className: 'jsx-259169289 add-to-queue__search-results' },
                     s.a.createElement(o.a, {
-                      styleId: '1522879596',
+                      styleId: '259169289',
                       css: [
-                        '.add-to-queue__search-results.jsx-1522879596{border:1px solid #999;list-style:none;margin:0;padding:0;color:white;}',
-                        '.add-to-queue__search-results-item.jsx-1522879596{padding:5px 0 5px 5px;}',
-                        '.add-to-queue__search-results-item--focused.jsx-1522879596{background-color:#eee;}',
-                        '.container.jsx-1522879596{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}',
-                        '.album-img.jsx-1522879596{width:64;padding-right:1em;}',
-                        '.flex-item.jsx-1522879596{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;}',
-                        '.song-name.jsx-1522879596{font-size:1.3em;margin-bottom:0.3em;}'
+                        '.add-to-queue__search-results.jsx-259169289{border:1px solid #999;list-style:none;margin:0;padding:0;color:white;}',
+                        '.add-to-queue__search-results-item.jsx-259169289{padding:5px 0 5px 5px;}',
+                        '.add-to-queue__search-results-item--focused.jsx-259169289{background-color:#eee;}',
+                        '.container.jsx-259169289{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}',
+                        '.album-img.jsx-259169289{width:64;padding-right:1em;}',
+                        '.flex-item.jsx-259169289{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;}',
+                        '.song-name.jsx-259169289{font-size:1.3em;margin-bottom:0.3em;}'
                       ]
                     }),
                     r.map(function(e, r) {
@@ -11063,21 +11063,21 @@
                           onClick: function() {
                             return t.props.onSelect(e.id);
                           },
-                          className: 'jsx-1522879596 ' + (o || '')
+                          className: 'jsx-259169289 ' + (o || '')
                         },
                         s.a.createElement(
                           'div',
-                          { className: 'jsx-1522879596 container' },
+                          { className: 'jsx-259169289 container' },
                           s.a.createElement(
                             'div',
-                            { className: 'jsx-1522879596 album-img' },
-                            s.a.createElement('img', { src: e.album.images[2].url, className: 'jsx-1522879596' })
+                            { className: 'jsx-259169289 album-img' },
+                            s.a.createElement('img', { src: e.album.images[2].url, className: 'jsx-259169289' })
                           ),
                           s.a.createElement(
                             'div',
-                            { className: 'jsx-1522879596 flex-item' },
-                            s.a.createElement('div', { className: 'jsx-1522879596 song-name' }, e.name),
-                            s.a.createElement('div', { className: 'jsx-1522879596' }, e.artists[0].name)
+                            { className: 'jsx-259169289 flex-item' },
+                            s.a.createElement('div', { className: 'jsx-259169289 song-name' }, e.name),
+                            s.a.createElement('div', { className: 'jsx-259169289' }, e.artists[0].name)
                           )
                         )
                       );
