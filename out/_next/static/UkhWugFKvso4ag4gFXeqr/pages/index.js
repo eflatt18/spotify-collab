@@ -21,7 +21,7 @@
     ,
     ,
     function(t, e) {
-      t.exports = { HOST: 'http://localhost:3000' };
+      t.exports = { HOST: 'http://spotify-662a3.firebaseapp.com' };
     },
     ,
     ,
