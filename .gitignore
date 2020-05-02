@@ -6,7 +6,6 @@ package-lock.json
 ./firebase.json
 .runtimeconfig.json
 .firebase/
-
 ### Firebase ###
 .idea
 **/node_modules/*

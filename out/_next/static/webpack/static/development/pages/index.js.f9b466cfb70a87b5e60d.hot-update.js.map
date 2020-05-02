@@ -1,1 +1,0 @@
-{"version":3,"file":"static/webpack/static/development/pages/index.js.f9b466cfb70a87b5e60d.hot-update.js","sources":["webpack:///./config/app.js"],"sourcesContent":["module.exports = {\n  HOST: 'http://spotify-662a3.firebaseapp.com'\n};\n\nmodule.exports = {\n  HOST: 'http://localhost:3000'\n};\n"],"mappings":";;;;;;;;;AAAA;AACA;AADA;AAIA;AACA;AADA;;;;A","sourceRoot":""}

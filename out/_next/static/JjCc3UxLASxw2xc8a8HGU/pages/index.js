@@ -1,5 +1,5 @@
 (window.webpackJsonp = window.webpackJsonp || []).push([
-  [3],
+  [6],
   [
     ,
     ,
@@ -21,7 +21,7 @@
     ,
     ,
     function(t, e) {
-      t.exports = { HOST: 'http://spotify-662a3.firebaseapp.com' };
+      t.exports = { HOST: 'https://localhost:3000' };
     },
     ,
     ,

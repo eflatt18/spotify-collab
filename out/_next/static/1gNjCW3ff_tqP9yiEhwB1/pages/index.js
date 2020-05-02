@@ -1,5 +1,5 @@
 (window.webpackJsonp = window.webpackJsonp || []).push([
-  [6],
+  [3],
   [
     ,
     ,
@@ -21,7 +21,13 @@
     ,
     ,
     function(t, e) {
-      t.exports = { HOST: 'http://spotify-662a3.firebaseapp.com' };
+      var r, n, o;
+      t.exports =
+        ((o = 'https://spotify-662a3.firebaseapp.com/callback'),
+        (n = 'HOST') in (r = { HOST: 'https://localhost:3000' })
+          ? Object.defineProperty(r, n, { value: o, enumerable: !0, configurable: !0, writable: !0 })
+          : (r[n] = o),
+        r);
     },
     ,
     ,
